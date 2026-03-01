@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_map/flutter_map.dart'; // OpenStreetMap
 import 'package:latlong2/latlong.dart'; // Coordinates
@@ -29,6 +30,17 @@ void main() async {
     if (!e.toString().contains('already exists')) {
       rethrow;
     }
+  }
+
+  // make sure we have an authenticated context so Firestore rules
+  // that require request.auth != null will pass. anonymous sign-in is
+  // sufficient for most simple rules.
+  try {
+    await FirebaseAuth.instance.signInAnonymously();
+  } catch (e) {
+    // ignore errors; some setups may not allow anonymous logins,
+    // but we still proceed and Firestore will return permission errors
+    // which the UI will surface.
   }
 
   final prefs = await SharedPreferences.getInstance();
@@ -869,11 +881,18 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> cancelOrder(BuildContext context, String orderId) async {
-    await FirebaseFirestore.instance.collection('orders').doc(orderId).delete();
-    if (!context.mounted) return;
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Order cancelled')),
-    );
+    try {
+      await FirebaseFirestore.instance.collection('orders').doc(orderId).delete();
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Order cancelled')),
+      );
+    } catch (e) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to cancel order: $e')),
+      );
+    }
   }
 
   @override
@@ -1065,6 +1084,12 @@ class _HomeScreenState extends State<HomeScreen> {
             .limit(1)
             .snapshots(),
         builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Error loading live order: ${snapshot.error}'),
+            );
+          }
           if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
             return const SizedBox.shrink();
           }
@@ -1840,30 +1865,37 @@ class _CartScreenState extends State<CartScreen> {
     double taxes = itemTotal * 0.05;
     int grandTotal = itemTotal + taxes.ceil() + 5;
 
-    await FirebaseFirestore.instance.collection('orders').add({
-      'items': items,
-      'totalPrice': grandTotal,
-      'studentName': widget.name,
-      'studentEmail': widget.email,
-      'address': finalAddress,
-      'status': 'Pending',
-      'orderedAt': FieldValue.serverTimestamp(),
-      'pin': null,
-    });
+    try {
+      await FirebaseFirestore.instance.collection('orders').add({
+        'items': items,
+        'totalPrice': grandTotal,
+        'studentName': widget.name,
+        'studentEmail': widget.email,
+        'address': finalAddress,
+        'status': 'Pending',
+        'orderedAt': FieldValue.serverTimestamp(),
+        'pin': null,
+      });
 
-    globalCart.clear();
+      globalCart.clear();
 
-    if (!mounted) return;
+      if (!mounted) return;
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Order placed successfully'),
-        duration: Duration(seconds: 2),
-      ),
-    );
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Order placed successfully'),
+          duration: Duration(seconds: 2),
+        ),
+      );
 
-    Navigator.of(context).pop();
-    Navigator.of(context).pop();
+      Navigator.of(context).pop();
+      Navigator.of(context).pop();
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to place order: $e')),
+      );
+    }
   }
 
   @override
@@ -2098,6 +2130,9 @@ class MyOrdersScreen extends StatelessWidget {
             .orderBy('orderedAt', descending: true)
             .snapshots(),
         builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return Center(child: Text('Error loading orders: ${snapshot.error}'));
+          }
           if (!snapshot.hasData) {
             return const Center(child: CircularProgressIndicator());
           }
@@ -2253,16 +2288,31 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
   final ctrl = TextEditingController();
 
   Future<void> login() async {
-    final doc = await FirebaseFirestore.instance
-        .collection('settings')
-        .doc('admin')
-        .get();
+    try {
+      final doc = await FirebaseFirestore.instance
+          .collection('settings')
+          .doc('admin')
+          .get();
 
-    if (ctrl.text == doc['password']) {
+      final pw = doc.data()?['password'] as String?;
+      if (pw == null) throw 'no password set';
+
+      if (ctrl.text == pw) {
+        if (!mounted) return;
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (_) => const AdminPanel()),
+        );
+      } else {
+        if (!mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Invalid admin password')),
+        );
+      }
+    } catch (e) {
       if (!mounted) return;
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (_) => const AdminPanel()),
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Admin login failed: $e')),
       );
     }
   }
@@ -2417,16 +2467,31 @@ class _DeliveryLoginScreenState extends State<DeliveryLoginScreen> {
   final ctrl = TextEditingController();
 
   Future<void> login() async {
-    final doc = await FirebaseFirestore.instance
-        .collection('settings')
-        .doc('delivery')
-        .get();
+    try {
+      final doc = await FirebaseFirestore.instance
+          .collection('settings')
+          .doc('delivery')
+          .get();
 
-    if (ctrl.text == doc['password']) {
+      final pw = doc.data()?['password'] as String?;
+      if (pw == null) throw 'no password set';
+
+      if (ctrl.text == pw) {
+        if (!mounted) return;
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (_) => const DeliveryPanel()),
+        );
+      } else {
+        if (!mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Invalid delivery password')),
+        );
+      }
+    } catch (e) {
       if (!mounted) return;
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (_) => const DeliveryPanel()),
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Delivery login failed: $e')),
       );
     }
   }
