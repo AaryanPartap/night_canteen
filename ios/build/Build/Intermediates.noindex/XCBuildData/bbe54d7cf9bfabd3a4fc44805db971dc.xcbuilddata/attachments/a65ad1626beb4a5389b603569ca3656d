@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Products/Debug-iphoneos/FirebaseSharedSwift/FirebaseSharedSwift.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Products/Debug-iphoneos/FirebaseSharedSwift/FirebaseSharedSwift.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "FirebaseSharedSwift-Swift.h",
+      "external-contents": "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/unextended-interface-header.h",
+    }]
+  }]
+}

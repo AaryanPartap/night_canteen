@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-primary.dia",
+    "emit-module-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-primary-emit-module.dia",
+    "pch" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/url_launcher_ios-primary.swiftdeps"
+  },
+  "/Users/aryan/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/ios/url_launcher_ios/Sources/url_launcher_ios/Launcher.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/Launcher~partial.swiftmodule"
+  },
+  "/Users/aryan/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/ios/url_launcher_ios/Sources/url_launcher_ios/URLLaunchSession.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLaunchSession~partial.swiftmodule"
+  },
+  "/Users/aryan/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/ios/url_launcher_ios/Sources/url_launcher_ios/URLLauncherPlugin.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/URLLauncherPlugin~partial.swiftmodule"
+  },
+  "/Users/aryan/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.6/ios/url_launcher_ios/Sources/url_launcher_ios/messages.g.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/url_launcher_ios.build/Objects-normal/arm64/messages.g~partial.swiftmodule"
+  }
+}

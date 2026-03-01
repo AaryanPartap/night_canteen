@@ -1,0 +1,35 @@
+name: pec_night_canteen
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
+  shared_preferences: ^2.2.2
+
+  # OpenStreetMap Dependencies
+  flutter_map: ^6.0.0       # <--- ADD THIS
+  latlong2: ^0.9.0          # <--- ADD THIS (Helper for coordinates)
+  # Location (Optional but recommended for finding user)
+  geolocator: ^10.1.0       # <--- ADD THIS (To get current location)
+  http: ^1.1.0
+  url_launcher: ^6.2.4
+
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^6.1.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

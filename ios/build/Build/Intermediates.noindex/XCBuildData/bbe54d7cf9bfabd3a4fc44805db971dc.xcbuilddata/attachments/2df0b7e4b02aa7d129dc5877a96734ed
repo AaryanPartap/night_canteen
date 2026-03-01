@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseSharedSwift-primary.dia",
+    "emit-module-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseSharedSwift-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseSharedSwift-primary-emit-module.dia",
+    "pch" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseSharedSwift-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseSharedSwift-primary.swiftdeps"
+  },
+  "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/FirebaseRemoteConfigValueDecoding.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseRemoteConfigValueDecoding~partial.swiftmodule"
+  },
+  "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/Pods/FirebaseSharedSwift/FirebaseSharedSwift/Sources/third_party/FirebaseDataEncoder/FirebaseDataEncoder.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSharedSwift.build/Objects-normal/arm64/FirebaseDataEncoder~partial.swiftmodule"
+  }
+}

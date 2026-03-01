@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1008132666477",
+    "project_id": "pec-night-canteen",
+    "storage_bucket": "pec-night-canteen.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008132666477:android:c8713cf88e2eba50067b64",
+        "android_client_info": {
+          "package_name": "com.example.pec_night_canteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008132666477-jmifepfqqthrg8946aqf4o9gerauoo1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pec_night_canteen",
+            "certificate_hash": "7bf5c06cf15076b62e047bf0dd983cd95fe3be45"
+          }
+        },
+        {
+          "client_id": "1008132666477-scdjfmnqqgvvss2ttgm2sa9jva6p2hod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmAuqxCs-67LvLOhLA_kZGT0wrDQL9rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008132666477-scdjfmnqqgvvss2ttgm2sa9jva6p2hod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

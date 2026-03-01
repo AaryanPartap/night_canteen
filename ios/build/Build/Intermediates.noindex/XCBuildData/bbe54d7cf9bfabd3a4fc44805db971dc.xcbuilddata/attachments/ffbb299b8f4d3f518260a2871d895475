@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/Runner-primary.dia",
+    "emit-module-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/Runner-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/Runner-primary-emit-module.dia",
+    "pch" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/Runner-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/Runner-primary.swiftdeps"
+  },
+  "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/Runner/AppDelegate.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/Runner/SceneDelegate.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/aryan/AndroidStudioProjects/pec_night_canteen/ios/build/Build/Intermediates.noindex/Runner.build/Debug-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
